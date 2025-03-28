@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOBBUDDY</title>
+    <link rel="stylesheet" href="seeker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <!-- head -->
+    <section>
+        <div class="head">
+            <h1>Find you perfect job</h1>
+            <p>Browse through available opportunities or narrow your search with filters.</p>
+        </div>
+        <div class="filter">
+            <input class="filter-design" type="text" placeholder="Job title,keywords,or company">
+            <select class="select-design" name="categories">
+                <!-- will be added from js -->
+                <option value="technology">Technology</option>
+                <option value="design">Design</option>
+                <option value="marketing">Marketing</option>
+                <option value="writing">Writing</option>
+            </select>
+
+            
+            <select class="select-design" name="location" id="">
+                <!-- will be added from js -->
+                <option value="technology">Bhilai</option>
+                <option value="design">Patna</option>
+                <option value="marketing">Raipur</option>
+                <option value="writing">Delhi</option>
+            </select>
+
+            <button class="enter-button">Enter</button>
+        </div>
+
+<!-- main -->
+ <main class="divider">
+    <div class="div-1st">
+        <div class="job-box">
+            <div class="small-photo" style="background-image: url('./img/small-photo1.jpeg')"></div>
+            <a>JOB: Photographer</a>
+            <p><i class="fa-solid fa-clock"></i>TYPE: Part-Time</p>
+            <P><i class="fa-solid fa-location-dot"></i>LOCATION: BHILAI</P>
+            <p id="Earnings">Earnings: Rs x</p>
+            <button class="apply-but">Apply Now</button>
+        </div>
+
+        <div class="job-box">
+            <div class="small-photo" style="background-image: url('./img/small-box3.jpeg')"></div>
+            <a>JOB: Event Management</a>
+            <p><i class="fa-solid fa-clock"></i>TYPE: Part-Time</p>
+            <P><i class="fa-solid fa-location-dot"></i>LOCATION: BHILAI</P>
+            <p id="Earnings">Earnings: Rs x</p>
+            <button class="apply-but">Apply Now</button>
+        </div>
+
+        <div class="job-box">
+            <div class="small-photo" style="background-image: url('./img/small-box2.jpg')"></div>
+            <a>JOB: Painting</a>
+            <p><i class="fa-solid fa-clock"></i>TYPE: Part-Time</p>
+            <P><i class="fa-solid fa-location-dot"></i>LOCATION: BHILAI</P>
+            <p id="Earnings">Earnings: Rs x</p>
+            <button class="apply-but">Apply Now</button>
+        </div>
+
+        <div class="job-box">
+            <div class="small-photo" style="background-image: url('./img/small-box4.jpeg')"></div>
+            <a>JOB: Teaching</a>
+            <p><i class="fa-solid fa-clock"></i>TYPE: Part-Time</p>
+            <P><i class="fa-solid fa-location-dot"></i>LOCATION: BHILAI</P>
+            <p id="Earnings">Earnings: Rs x</p>
+            <button class="apply-but">Apply Now</button>
+        </div>
+        <!-- more job-boxes will be added through JS (IDK how) -->
+    </div>
+
+    <div class="div-2nd">
+
+    </div>
+
+ </main>
+    </section>
+</body>
+</html>

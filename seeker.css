@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.head{
+    width: 90%; height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head h1{
+    font-size: 2.5rem;
+}
+
+.head p{
+    font-size: 1rem;
+}
+
+.filter{
+    background-color: rgba(209, 209, 209, 0.173);
+    width: 90%; height: 125px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left:  50px; 
+    padding-right: 50px;
+    border-radius: 5px;
+}
+
+.filter-design{
+    margin-right: 20px;
+    height: 35px; width: 40%;
+    border: 1px solid black;
+}
+
+.select-design{
+    height: 35px; width: 20%;
+    border: 1px solid black;
+}
+
+.enter-button{
+    height: 35px; width: 100px;
+    background-color: #3498db;
+    border-radius: 5px;
+    border: 2px solid #3498db;
+    color: white;
+    font-size: 1rem;
+}
+
+/* MAIN */
+
+.divider{
+    height: 1000px; width: 90%;
+    margin: 30px auto;
+    display: flex;
+}
+
+.div-1st{
+    width: 30%; height: 100%;
+}
+
+.job-box{
+    height: 300px; width: 90%;
+    margin: 30px auto;
+    background-color: white;
+    border: 2px solid  rgba(209, 209, 209, 0.73);
+    line-height: 1.2;
+}
+
+.small-photo{
+    height: 100px; width: 90%;
+    margin: 10px auto;
+    border: 2px solid black;
+    background-size: cover;
+}
+
+.job-box a{
+    margin: 10px 0px 20px 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.job-box p{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: .8rem;
+}
+
+#Earnings{
+    font-size: 1rem;
+}
+
+.fa-solid{
+    display: inline-block;
+    margin: 5px;
+    font-size: .8rem;
+}
+
+.apply-but{
+    height: 35px; width: 80%;
+    background-color: #3498db;
+    border-radius: 5px;
+    border: 2px solid #3498db;
+    color: white;
+    font-size: 1rem;
+    margin: 20px 44px 20px 44px;
+}
+
+.div-2nd{
+    width: 70%; height: 100%;
+    background-color: aqua;
+}
+
